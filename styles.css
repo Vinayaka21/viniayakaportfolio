@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1D5B79;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color:#F3AA60;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  font-size: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #468B97;
+  font-size: 1.04rem;
+}
+
+main hr {
+  border: 0;
+  background-color: #EF6262;
+  height: 1.2px;
+  margin: 40px 45px;
+}
+
+.left {
+  font-size: 1.8rem;
+  color: #1D5B79;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 264px 0;
+  align-items: center;
+}
+
+.firstsection > div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 3rem;
+}
+
+.leftsection .btn {
+  padding: 27px;
+  background-color:#F3AA60;
+  color: black;
+  border: 2px solid black;
+  border-radius: 16px;
+  font-size: 23px;
+}
+
+.rightsection img {
+  width: 100%;
+}
+.centerimage {
+  margin: 285px auto;
+  width: 60%;
+}
+
+.centerimage img {
+  width: 1333px;
+  height: 704px;
+}
+
+.pink {
+  color:#EF6262 ;
+}
+
+.white {
+  color: white;
+}
+.text-pinky {
+  color: #EF6262;
+}
+
+#element {
+  color: #EF6262;
+}
+
+.secondsection {
+  max-width: 77vw;
+  align-items: auto;
+  margin-left: 244px;
+  height: 88vh;
+}
+.secondsection .hr {
+  font-size: 1.5rem;
+}
+
+.h1 {
+  font-size: 1.9rem;
+}
+section .title span {
+  margin-left: 244px;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+section .title span::before,
+section .title span::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: red;
+  left: 0;
+  bottom: 0;
+}
+
+.secondsection .box {
+  background-color: #EF6262;
+  height: 2px;
+  width: 80vw;
+  margin: 87px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: #EF6262;
+  margin: 0 180px;
+}
+.fourthsection {
+  margin-left: 244px;
+  margin-right: 244px;
+}
+
+.image-top {
+  width: 52px;
+  position: relative;
+  top: -57px;
+  left: -22px;
+}
+
+.vertical-text {
+  position: relative;
+  top: 64px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 78px;
+  width: 150px;
+  color: #F3AA60;
+  font-size: 9px;
+}
+.thirdsection{
+  margin-left: 244px;
+  margin-right: 244px;
+  height: 88vh;
+}
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+ gap: 10rem;
+  flex-wrap: wrap;
+margin-top: 100px;
+}
+
+.skill {
+  flex: 1;
+  max-width: 235px;
+  padding: 31px;
+  background-color: #1D5B79;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.skill-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.percentage {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #F3AA60;
+}
+.fourthsection{
+   margin-left: 244px;
+  margin-right: 244px;
+  height: 88vh;
+}
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+ gap: 10rem;
+  flex-wrap: wrap;
+margin-top: 100px;
+}
+.project {
+  flex: 1;
+  cursor: default;
+  height: 300px;
+  padding: 30px 10px;
+  transition: all 0.4s ease;
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  background-color: 
+  #EF6262;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 20px 30px rgba(248, 152, 192, 0.12);
+}
+
+.project-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(48, 6, 39);
+}
+.pdes {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(30, 11, 49);
+}
+
+.project:hover{
+  background:  #F3AA60;
+  color: #1D5B79;
+}
+
+.footer {
+display: flex;
+  padding: 12px 35px;;
+  justify-content: space-evenly;
+  background-color:#F3AA60;
+  color: #1D5B79;
+
+}
+
+.footer ul {
+  list-style: none;
+  padding: 12px 0;
+  color: #1D5B79;
+}
+
+.footer > div {
+  width: 223px;
+}
